@@ -13,7 +13,7 @@
 #define square_space_x 40
 #define square_space_y 20
 
-#include "interface.cpp"
+#include "interface.h"
 
 enum b { t_ = 0, a_ = 1, c_ = 2, _n = 3 };
 
@@ -24,7 +24,7 @@ float ran_() {
   return x;
 }
 
-// Mini-blibiotecas para auxiliar a codificação de tipos estaticos
+// Mini-blibiotecas para auxiliar a codificaÃ§Ã£o de tipos estaticos
 template <typename T>
 char *to_char(T i) {
   std::stringstream buffer;
